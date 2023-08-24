@@ -20,11 +20,12 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+.list {
+    /* to shorten it & make it more obvious as to what kind of div it is, I changed .header div into .list */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.ul {
+    /*I assigned a class to the ul element to more easily identify it. */
     list-style-type: none;
 }
 
-.header div ul li {
+.ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -54,7 +56,9 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    /* by changing the "hero" div to an img tag, it now has the file path to the jpeg as its src. thus, 
+    setting the background-image in the css file is no longer required. */
+    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
 }
