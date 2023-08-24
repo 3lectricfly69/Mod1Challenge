@@ -24,7 +24,8 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.list {
+    /* to shorten it & make it more obvious as to what kind of div it is, I changed .header div into .list */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,6 +34,7 @@ body {
 }
 
 .ul {
+    /*I assigned a class to the ul element to more easily identify it. */
     list-style-type: none;
 }
 
@@ -54,6 +56,8 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* by changing the "hero" div to an img tag, it now has the file path to the jpeg as its src. thus, 
+    setting the background-image in the css file is no longer required. */
     /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
